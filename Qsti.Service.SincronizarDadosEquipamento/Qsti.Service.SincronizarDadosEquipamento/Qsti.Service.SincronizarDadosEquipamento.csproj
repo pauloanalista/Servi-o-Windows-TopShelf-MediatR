@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.3" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+    <PackageReference Include="Topshelf.Unity" Version="4.0.1" />
+    <PackageReference Include="Unity" Version="5.11.4" />
+    <PackageReference Include="Unity.Abstractions" Version="5.11.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Qsti.Service.SincronizarDadosEquipamento.Domain\Qsti.Service.SincronizarDadosEquipamento.Domain.csproj" />
+    <ProjectReference Include="..\Qsti.Service.SincronizarDadosEquipamento.Infra\Qsti.Service.SincronizarDadosEquipamento.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Infra\\Qsti.Service.SincronizarDadosEquipamento.Infra.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Domain\\Qsti.Service.SincronizarDadosEquipamento.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Domain\\Qsti.Service.SincronizarDadosEquipamento.Domain.csproj",
+        "projectName": "Qsti.Service.SincronizarDadosEquipamento.Domain",
+        "projectPath": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Domain\\Qsti.Service.SincronizarDadosEquipamento.Domain.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.qsti.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Infra\\Qsti.Service.SincronizarDadosEquipamento.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Infra\\Qsti.Service.SincronizarDadosEquipamento.Infra.csproj",
+        "projectName": "Qsti.Service.SincronizarDadosEquipamento.Infra",
+        "projectPath": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Infra\\Qsti.Service.SincronizarDadosEquipamento.Infra.csproj",
+        "packagesPath": "C:\\Users\\Paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.qsti.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Domain\\Qsti.Service.SincronizarDadosEquipamento.Domain.csproj": {
+                "projectPath": "C:\\Users\\Paulo\\Downloads\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Domain\\Qsti.Service.SincronizarDadosEquipamento.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

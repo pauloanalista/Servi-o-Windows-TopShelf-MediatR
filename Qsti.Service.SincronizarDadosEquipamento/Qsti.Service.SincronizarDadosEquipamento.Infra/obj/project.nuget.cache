@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0/z6rT45ZaxeOOxfqqacJsdUC2hKQah3CRvGrb5KGeVfhxFb/cpTpa6BDcQiQT8spO1hf5Dufc9YC+oQ6QqlEw==",
+  "success": true,
+  "projectFilePath": "C:\\_QSTI\\_Teste\\Qsti.Service.SincronizarDadosEquipamento\\Qsti.Service.SincronizarDadosEquipamento.Infra\\Qsti.Service.SincronizarDadosEquipamento.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlos\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
